@@ -8,8 +8,7 @@
       "dest": "https://items-manager-yvbd.onrender.com/api/$1"
     },
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "src": "/(.*)"
     }
   ]
 }
