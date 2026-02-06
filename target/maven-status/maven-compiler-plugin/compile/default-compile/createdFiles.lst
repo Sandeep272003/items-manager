@@ -1,0 +1,8 @@
+com\example\itemmanager\model\Item.class
+com\example\itemmanager\repository\ItemRepository.class
+com\example\itemmanager\controller\ItemController.class
+com\example\itemmanager\ItemManagerApplication.class
+com\example\itemmanager\service\ItemService.class
+com\example\itemmanager\repository\ItemRepository$1.class
+com\example\itemmanager\ItemManagerApplication$1.class
+com\example\itemmanager\ui\SwingClient.class
