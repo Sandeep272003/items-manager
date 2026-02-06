@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Items Manager</title></head>
+<body>
+  <h1>Items Manager Frontend</h1>
+  <button id="load">Load Items</button>
+  <pre id="out"></pre>
+  <script>
+    document.getElementById('load').onclick = async () => {
+      const res = await fetch('/api/items');
+      const data = await res.json();
+      document.getElementById('out').textContent = JSON.stringify(data, null, 2);
+    };
+  </script>
+</body>
+</html>
