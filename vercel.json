@@ -1,14 +1,11 @@
 {
   "version": 2,
-  "name": "items-manager"
-  ,
+  "name": "items-manager",
+  "builds": [
+    { "src": "package.json", "use": "@vercel/static-build" }
+  ],
   "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "https://items-manager-yvbd.onrender.com/api/$1"
-    },
-    {
-      "src": "/(.*)"
-    }
+    { "src": "/api/(.*)", "dest": "https://items-manager-yvbd.onrender.com/api/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
