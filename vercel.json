@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "name": "items-manager",
+  "name": "items-manager"
+  ,
   "routes": [
     {
       "src": "/api/(.*)",
